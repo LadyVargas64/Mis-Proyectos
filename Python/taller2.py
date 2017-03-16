@@ -1,3 +1,4 @@
+import math
 #Primer Punto
 print('~Problema en donde se tienen 3 numeros flotantes y los suma')
 a = 1.2
@@ -23,3 +24,12 @@ a=5
 b=6
 r=(a*b)/2
 print ("El area del Triangulo es" +str (r))
+#Cuarto Punto
+print('----------------------------------------------------------')
+print('')
+print('~La hipotenusa de un triangulo con b = 2 y h = 2')
+a = 2
+b = (a**2) + (a**2)
+
+raiz=math.sqrt(b)
+print(raiz)
