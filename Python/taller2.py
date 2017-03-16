@@ -33,3 +33,27 @@ b = (a**2) + (a**2)
 
 raiz=math.sqrt(b)
 print(raiz)
+#Quinto Punto
+print('----------------------------------------------------------')
+print('')
+print('~saber si una cadena de texto tiene la palabra arbol consecutivamente')
+a = 'ndlanldkarbolooinos'
+b = len(a)
+rsp = 0
+for i in range(0,b,1):
+    if(a[i]=='a'):
+        c = i       
+if(a[c]=='a'):
+    x = c+1
+    if(a[x]=='r'):
+        x = x+1
+        if(a[x]=='b'):
+            x = x+1
+            if(a[x]=='o'):
+                x = x+1
+                if(a[x]=='l'):
+                    rsp = 1
+if(rsp == 1):
+    print('La cadena "'+a+'" tiene la palabra arbol consecutivamente')
+else:
+    print('La cadena "'+a+'" no tiene la palabra arbol consecutivamente')  
