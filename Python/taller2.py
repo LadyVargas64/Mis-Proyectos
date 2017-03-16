@@ -4,3 +4,14 @@ a = 1.2
 b = 3.2
 c = 4.5
 print(a + b + c)
+#Segundo Punto
+print('----------------------------------------------------------')
+print('')
+print('~Imprime si un numero es mayor a 1000, menor a 500 o un numero entre 500 a 1000')
+a = 654
+if(a > 1000):
+    print('Numero mayor a 1000')
+elif(a > 500):
+    print('Numero mayor a 500 y menor a 1000')
+elif(a < 500):
+    print('Numero menor a 500') 
