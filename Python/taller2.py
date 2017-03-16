@@ -56,4 +56,19 @@ if(a[c]=='a'):
 if(rsp == 1):
     print('La cadena "'+a+'" tiene la palabra arbol consecutivamente')
 else:
-    print('La cadena "'+a+'" no tiene la palabra arbol consecutivamente')  
+    print('La cadena "'+a+'" no tiene la palabra arbol consecutivamente')
+#Sexto Punto    
+print('----------------------------------------------------------')
+print('')
+print('~Saber cuantos numeros pares hay en una cadena de texto')
+a = "a,2,6,s"
+contar = 0
+for  i in a:
+    try:
+        k = int(i)
+        g = k % 2 
+        if(g == 0):  
+            contar = contar + 1
+    except:
+        c = 1
+print(contar)
